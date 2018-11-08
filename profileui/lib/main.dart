@@ -158,52 +158,6 @@ class _ProfileState extends State<Profile> {
                     },
                   ),
                 ),
-                Container(
-                  width: uniWidth,
-                  height: uniHeight / 10.44,
-                  color: Colors.black12,
-                  child: Center(
-                    child: Text(
-                      'SHARING SETTINGS',
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                  ),
-                ),
-                Padding(
-                    padding: EdgeInsets.only(left: uniWidth / 43.1, right: uniWidth / 43.1),
-                    child: Column(
-                      children: <Widget>[
-                        ListTile(
-                          title: Text('Link with Facebook'),
-                          trailing: OutlineButton(
-                            onPressed: (){},
-                            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
-                            child: Text('LINK PROFILES'),
-                          ),
-                        ),
-                        Divider(color: Colors.grey),
-                        ListTile(
-                          title: Text('Link with Twitter'),
-                          trailing: OutlineButton(
-                            onPressed: (){},
-                            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
-                            child: Text('LINK PROFILES'),
-                          ),
-                        ),
-                        Divider(color: Colors.grey),
-                        ListTile(
-                          title: Text('Link with Dribbble'),
-                          trailing: OutlineButton(
-                            onPressed: (){},
-                            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
-                            child: Text('LINK PROFILES'),
-                          ),
-                        ),
-                      ],
-                    )
-                )
               ]
           ),
         ),
