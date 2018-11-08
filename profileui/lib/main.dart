@@ -109,12 +109,12 @@ class _ProfileState extends State<Profile> {
                           children: <Widget>[
                             Padding(padding: EdgeInsets.only(left: uniWidth / 20),),
                             Icon(Icons.menu, color: Colors.white,),
-                            Padding(padding: EdgeInsets.only(left: uniWidth / 3)),
-                            Text('Settings',
+                            Padding(padding: EdgeInsets.only(left: uniWidth / 3.1)),
+                            Text('SETTINGS',
                               style: TextStyle(color: Colors.white, fontSize: 16.0),),
                           ],),
                         Padding(padding: EdgeInsets.only(
-                            top: uniHeight / 30, left: uniWidth / 2.7),
+                            top: uniHeight / 30, left: uniWidth / 2.8),
                           child: Container(
                             decoration: BoxDecoration(
                                 border: Border.all(color: Colors.white, width: 3.0),
@@ -131,7 +131,7 @@ class _ProfileState extends State<Profile> {
                           ),
                         ),
                         Padding(padding: EdgeInsets.only(
-                            top: uniHeight / 25, left: uniWidth / 2.5),
+                            top: uniHeight / 25, left: uniWidth / 2.6),
                           child: Column(
                             children: <Widget>[
                               Text('Pratik Jain', style: TextStyle(
