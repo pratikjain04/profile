@@ -21,7 +21,7 @@ class ListWidget extends StatelessWidget {
     return Padding(
       padding: EdgeInsets.only(left: uniWidth / 43.1, right: uniWidth / 43.1),
       child: ListTile(
-        //TODO: Add tap actions
+
         onTap: (){},
         leading: icon,
         title: Row(
@@ -81,7 +81,7 @@ class _ProfileState extends State<Profile> {
                       children: <Widget>[
                         Container(
                           height: uniHeight / 2.25,
-                          //todo: Insert code for fetching image from database in final code
+
                           decoration: new BoxDecoration(
                             image: new DecorationImage(
                               image: new ExactAssetImage('assets/Pratik.jpeg'),
