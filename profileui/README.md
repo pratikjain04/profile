@@ -1,6 +1,6 @@
 # profileui
 
-A new Flutter project.
+A basic profile UI for getting started with flutter.
 
 ## Getting Started
 
