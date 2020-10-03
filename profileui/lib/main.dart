@@ -9,6 +9,7 @@ class Profile extends StatefulWidget {
   _ProfileState createState() => _ProfileState();
 }
 
+//A List widget which can be used everywhere
 class ListWidget extends StatelessWidget {
   final String title;
   final Icon icon;
